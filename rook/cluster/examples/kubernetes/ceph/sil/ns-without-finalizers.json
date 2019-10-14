@@ -1,0 +1,26 @@
+{
+    "apiVersion": "project.openshift.io/v1",
+    "kind": "Project",
+    "metadata": {
+        "annotations": {
+            "openshift.io/sa.scc.mcs": "s0:c23,c2",
+            "openshift.io/sa.scc.supplemental-groups": "1000510000/10000",
+            "openshift.io/sa.scc.uid-range": "1000510000/10000"
+        },
+        "creationTimestamp": "2019-10-08T16:20:08Z",
+        "deletionTimestamp": "2019-10-10T14:26:09Z",
+        "labels": {
+            "openshift.io/cluster-monitoring": "true"
+        },
+        "name": "openshift-storage",
+        "resourceVersion": "1059727",
+        "selfLink": "/apis/project.openshift.io/v1/projects/openshift-storage",
+        "uid": "7ea7112e-e9e7-11e9-bfce-001a4a160168"
+    },
+    "spec": {
+        "finalizers": []
+    },
+    "status": {
+        "phase": "Terminating"
+    }
+}
